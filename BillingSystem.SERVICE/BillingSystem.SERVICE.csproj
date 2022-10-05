@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BillingSystem.DAL\BillingSystem.DAL.csproj" />
+    <ProjectReference Include="..\BillingSystem.MODEL\BillingSystem.MODEL.csproj" />
+  </ItemGroup>
+
+</Project>

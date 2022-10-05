@@ -1,0 +1,297 @@
+﻿@model BillingSystem.MODEL.EntryViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>EntryViewModel</h4>
+<hr />
+
+
+<form>
+
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="form-group">
+               <label>--Select Customer--</label><br />
+                <select id="selectedCustomer" asp-for="CUSTID" asp-items="ViewBag.CustomerList">
+
+                </select>
+            </div>
+            @*<div class="col-xs-4">
+                    <label asp-for="CreatedDate">Inventory Date</label>
+                    @Html.Editor("InventoryDate", new { htmlAttributes = new { @class = "form-control mydatepicker", @placeholder = "Inventory date", id = "InventoryDate" } })
+                    @Html.ValidationMessageFor(model => model.CreatedDate, "", new { @class = "text-danger" })
+                </div>*@
+            <div class="col-xs-4">
+                <label asp-for="BILLHEADERTABLE.BILLNO" class="control-label" ></label>
+                <input asp-for="BILLHEADERTABLE.BILLNO" class="form-control" id="billNO" />
+                <span asp-validation-for="BILLHEADERTABLE.BILLNO" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="col-md-10 col-md-offset-1">
+            @*<br />
+                    <div class="col-md-4">
+                        <label asp-for="CustomerId">Customer</label>
+                        @Html.DropDownList("Customer", new SelectList(string.Empty, "Value", "Text"), "select customer", new { @class = "form-control", id = "Customer" })
+                        @Html.ValidationMessageFor(model => model.CustomerId, "", new { @class = "text-danger" })
+                    </div>
+                </div>*@
+
+            <div class="col-md-10 col-md-offset-1">
+                <div class="col-md-4 ">
+                    <br />
+                    <input type="button" value="Add Products" data-toggle="modal" data-target="#loginModal" class="button primary" />
+                </div>
+            </div>
+
+
+
+            <div class="col-md-10 col-md-offset-1">
+                <br />
+                <br />
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <td>Product Id</td>
+                            <td>Product Name</td>
+                            <td>Price </td>
+                            <td>Quantity</td>
+                            <td>Amount</td>
+                            <td></td>
+                        </tr>
+                    </thead>
+                    <tbody id="Items">
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-12">
+                <br />
+                <div class="col-md-3 col-md-offset-8">
+                        <label asp-for="TotalAmount">Total Amount</label>
+                        <input type="text" asp-for="TotalAmount" class="form-control" placeholder="Total Amount" id="TotalAmount" />
+                        @Html.ValidationMessageFor(model => model.TotalAmount, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="col-md-3 col-md-offset-8">
+                        <label asp-for="GivenAmount">Given Amount</label>
+                        <input type="text" asp-for="GivenAmount" id="GivenAmount" class="form-control" placeholder="Given Amount" />
+                        @Html.ValidationMessageFor(model => model.GivenAmount, "", new { @class = "text-danger" })
+
+                    </div>
+
+                    <div class="col-md-3 col-md-offset-8">
+                        <label asp-for="ChangeAmount">Change Amount</label>
+                        <input type="text" asp-for="ChangeAmount" class="form-control" id="ChangeAmount" placeholder="Change Amount" />
+                        @Html.ValidationMessageFor(model => model.ChangeAmount, "", new { @class = "text-danger" })
+                        <br />
+                    </div>
+
+                <div class="col-md-3 col-md-offset-8">
+                    <input type="submit" value="Save Order" class="button success" id="btnSubmit" />
+                </div>
+
+            </div>
+        </div>
+    </div>
+</form>
+
+<!--modal form-->
+<div class="row">
+    <div class="col-md-6">
+        <div class="modal fade bs-example-modal-sm" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <h4 class="modal-header">Select Product</h4>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+
+                                    <div class="form-group">
+                                        <label>--Select Product--</label><br />
+                                        <select class="selectedId"  id="selectedId"  asp-for="ITEMID" asp-items="ViewBag.ProductList">
+                                        </select>
+                                    </div>
+
+                                    @*<div class="col-lg-2">
+                                        <div class="controls">
+                                            <select class="span8 chosen-select selectedId" id="selectedId">
+                                                <option value="0">-- Select at Least One Item --</option>
+                                                @foreach (var item in Model.ITEMTABLE)
+                                                {
+                                                    <option value="@item.ITEMID">@item.ITEMNAME</option>
+                                                }
+
+                                            </select>
+                                        </div>
+                                    </div>*@
+                                    <div class="col-lg-2">
+                                        <input id="itemCode"  />
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <input id="itemRate"  />
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <input id="itemQty"  />
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <input id="itemUnit"  />
+                                    </div>
+                                    <div class="col-lg-2">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <a id="btnAdd" class="btn btn-primary">
+                            <span class="glyphicon glyphicon-plus"></span> Add
+                        </a>
+                        <a id="BtnClose" class="btn btn-danger" data-dismiss="modal">
+                            <span class="glyphicon glyphicon-off"></span> Close
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+<script>
+    var itemcodes = "";
+
+</script>
+
+<script>
+
+    $(".selectedId").change(function () {
+        debugger;
+        var Id = $(".selectedId").val();
+        debugger;
+        $.ajax({
+            url: "/Item/GetItemById",
+            method: "post",
+            data:
+            {
+                ID: Id
+            }
+        }).done(function (response) {
+            debugger;
+            $('#itemCode').val(response.itemcode);
+            $('#itemRate').val(response.rate);
+            $('#itemQty').val(response.stockqty);
+            $('#itemUnit').val(response.mou);
+            debugger;
+        });
+    });
+
+
+    $("#btnAdd").on('click', function () {
+        var productId = $('#selectedId').val();
+        var productName = $("#selectedId option:selected").text();
+        var price = $("#itemRate").val();
+        var quantity = $("#itemQty").val();
+        var amoun = $("#itemRate").val();
+        var amount = (quantity * amoun);
+
+        var row = `<tr>
+                    <td class="productId">${productId}</td>
+                    <td class="productName">${productName}</td>
+                    <td class="price">${price}</td>
+                    <td class="quantity">${quantity}</td>
+                    <td class="amount">${amount}</td>
+                    <td>
+                        <a class="btn btn-danger btn-sm btnDelete">
+                            <span class="glyphicon glyphicon-trash">Delete</span>
+                        </a>
+                    </td>
+                </tr>`;
+
+        $('#Items').append(row);
+        calculateSum();
+        //clearValue();
+    });
+    //remove button click event
+    $('#Items').on('click', '.btnDelete', function () {
+        $(this).parents('tr').remove();
+        calculateSum();
+    });
+    function calculateSum() {
+        var sum = 0;
+        // iterate through each td based on class and add the values
+        $(".amount").each(function () {
+
+            var value = $(this).text();
+            // add only if the value is number
+            if (!isNaN(value) && value.length !== 0) {
+                sum += parseFloat(value);
+            }
+        });
+
+        $('#TotalAmount').val(sum);
+        var a = $('#TotalAmount').val();
+        var b = $('#GivenAmount').val();
+        $('#ChangeAmount').val(a - b);
+    };
+
+    $('.amount').each(function () {
+        calculateSum();
+    });
+
+    $("#btnSubmit").click(function () {
+        debugger;
+        var list = [];
+        debugger;
+        $('#Items tr').each(function (index, ele) {
+            var orderItem = {
+                ITEMID: $('.productId', this).text(),
+                RATE: $('.productName', this).text(),
+                RATE: parseInt($('.price', this).text()),
+                STOCKQTY: parseInt($('.quantity', this).text()),
+                /*TotalPrice: parseFloat($('.amount', this).text())*/
+            };
+            debugger;
+            list.push(orderItem);
+        });
+        console.log(list);
+        $.ajax({
+            type: 'POST',
+            url: '/BillingSystem/Create',
+            datatype: "Json",
+            data: {
+                CUSTID: parseInt($("#selectedCustomer").val()),
+                InventoryCode: $("#InventoryCode").val(),
+                CreatedDate: $("#InventoryDate").val(),
+                Status: $("#Status").val(),
+                TotalAmount: parseFloat($("#TotalAmount").val()),
+                GivenAmount: parseFloat($("#GivenAmount").val()),
+                ChangeAmount: parseFloat($("#ChangeAmount").val()),
+                BILLNO: $("#billNO").val(),
+                Items: list
+            },
+            success: function () {
+                //alert('Successfully saved');
+            },
+            error: function (error) {
+                console.log(error);
+            }
+        });
+    });
+    $(function () {
+        debugger;
+        $("#selectedCustomer").select2();
+    });
+    $(function () {
+        debugger;
+        $("#selectedId").select2();
+    });
+</script>

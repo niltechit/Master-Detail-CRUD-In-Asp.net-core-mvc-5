@@ -1,0 +1,17 @@
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.SERVICE\bin\Debug\net5.0\BillingSystem.SERVICE.deps.json
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.SERVICE\bin\Debug\net5.0\BillingSystem.SERVICE.dll
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.SERVICE\bin\Debug\net5.0\ref\BillingSystem.SERVICE.dll
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.SERVICE\bin\Debug\net5.0\BillingSystem.SERVICE.pdb
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.SERVICE\bin\Debug\net5.0\BillingSystem.DAL.dll
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.SERVICE\bin\Debug\net5.0\BillingSystem.MODEL.dll
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.SERVICE\bin\Debug\net5.0\BillingSystem.DAL.pdb
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.SERVICE\bin\Debug\net5.0\BillingSystem.MODEL.pdb
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.SERVICE\obj\Debug\net5.0\BillingSystem.SERVICE.csproj.AssemblyReference.cache
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.SERVICE\obj\Debug\net5.0\BillingSystem.SERVICE.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.SERVICE\obj\Debug\net5.0\BillingSystem.SERVICE.AssemblyInfoInputs.cache
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.SERVICE\obj\Debug\net5.0\BillingSystem.SERVICE.AssemblyInfo.cs
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.SERVICE\obj\Debug\net5.0\BillingSystem.SERVICE.csproj.CoreCompileInputs.cache
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.SERVICE\obj\Debug\net5.0\BillingSystem.SERVICE.csproj.CopyComplete
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.SERVICE\obj\Debug\net5.0\BillingSystem.SERVICE.dll
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.SERVICE\obj\Debug\net5.0\ref\BillingSystem.SERVICE.dll
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.SERVICE\obj\Debug\net5.0\BillingSystem.SERVICE.pdb

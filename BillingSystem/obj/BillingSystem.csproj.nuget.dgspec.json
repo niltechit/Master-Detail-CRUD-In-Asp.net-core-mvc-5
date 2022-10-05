@@ -1,0 +1,278 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\.Net Core\\BillingSystem\\BillingSystem\\BillingSystem\\BillingSystem.csproj": {}
+  },
+  "projects": {
+    "D:\\.Net Core\\BillingSystem\\BillingSystem\\BillingSystem.DAL\\BillingSystem.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.Net Core\\BillingSystem\\BillingSystem\\BillingSystem.DAL\\BillingSystem.DAL.csproj",
+        "projectName": "BillingSystem.DAL",
+        "projectPath": "D:\\.Net Core\\BillingSystem\\BillingSystem\\BillingSystem.DAL\\BillingSystem.DAL.csproj",
+        "packagesPath": "C:\\Users\\PIYAS\\.nuget\\packages\\",
+        "outputPath": "D:\\.Net Core\\BillingSystem\\BillingSystem\\BillingSystem.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PIYAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "CacheManager.Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.0.0-beta-1629, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\.Net Core\\BillingSystem\\BillingSystem\\BillingSystem.MODEL\\BillingSystem.MODEL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.Net Core\\BillingSystem\\BillingSystem\\BillingSystem.MODEL\\BillingSystem.MODEL.csproj",
+        "projectName": "BillingSystem.MODEL",
+        "projectPath": "D:\\.Net Core\\BillingSystem\\BillingSystem\\BillingSystem.MODEL\\BillingSystem.MODEL.csproj",
+        "packagesPath": "C:\\Users\\PIYAS\\.nuget\\packages\\",
+        "outputPath": "D:\\.Net Core\\BillingSystem\\BillingSystem\\BillingSystem.MODEL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PIYAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\.Net Core\\BillingSystem\\BillingSystem\\BillingSystem.SERVICE\\BillingSystem.SERVICE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.Net Core\\BillingSystem\\BillingSystem\\BillingSystem.SERVICE\\BillingSystem.SERVICE.csproj",
+        "projectName": "BillingSystem.SERVICE",
+        "projectPath": "D:\\.Net Core\\BillingSystem\\BillingSystem\\BillingSystem.SERVICE\\BillingSystem.SERVICE.csproj",
+        "packagesPath": "C:\\Users\\PIYAS\\.nuget\\packages\\",
+        "outputPath": "D:\\.Net Core\\BillingSystem\\BillingSystem\\BillingSystem.SERVICE\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PIYAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\.Net Core\\BillingSystem\\BillingSystem\\BillingSystem.DAL\\BillingSystem.DAL.csproj": {
+                "projectPath": "D:\\.Net Core\\BillingSystem\\BillingSystem\\BillingSystem.DAL\\BillingSystem.DAL.csproj"
+              },
+              "D:\\.Net Core\\BillingSystem\\BillingSystem\\BillingSystem.MODEL\\BillingSystem.MODEL.csproj": {
+                "projectPath": "D:\\.Net Core\\BillingSystem\\BillingSystem\\BillingSystem.MODEL\\BillingSystem.MODEL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\.Net Core\\BillingSystem\\BillingSystem\\BillingSystem\\BillingSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\.Net Core\\BillingSystem\\BillingSystem\\BillingSystem\\BillingSystem.csproj",
+        "projectName": "BillingSystem",
+        "projectPath": "D:\\.Net Core\\BillingSystem\\BillingSystem\\BillingSystem\\BillingSystem.csproj",
+        "packagesPath": "C:\\Users\\PIYAS\\.nuget\\packages\\",
+        "outputPath": "D:\\.Net Core\\BillingSystem\\BillingSystem\\BillingSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PIYAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\.Net Core\\BillingSystem\\BillingSystem\\BillingSystem.SERVICE\\BillingSystem.SERVICE.csproj": {
+                "projectPath": "D:\\.Net Core\\BillingSystem\\BillingSystem\\BillingSystem.SERVICE\\BillingSystem.SERVICE.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.14, 5.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

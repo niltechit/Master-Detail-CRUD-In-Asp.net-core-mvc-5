@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\PIYAS\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\PIYAS\\.nuget\\packages"
+    ]
+  }
+}

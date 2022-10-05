@@ -1,0 +1,12 @@
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.MODEL\bin\Debug\net5.0\BillingSystem.MODEL.deps.json
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.MODEL\bin\Debug\net5.0\BillingSystem.MODEL.dll
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.MODEL\bin\Debug\net5.0\ref\BillingSystem.MODEL.dll
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.MODEL\bin\Debug\net5.0\BillingSystem.MODEL.pdb
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.MODEL\obj\Debug\net5.0\BillingSystem.MODEL.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.MODEL\obj\Debug\net5.0\BillingSystem.MODEL.AssemblyInfoInputs.cache
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.MODEL\obj\Debug\net5.0\BillingSystem.MODEL.AssemblyInfo.cs
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.MODEL\obj\Debug\net5.0\BillingSystem.MODEL.csproj.CoreCompileInputs.cache
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.MODEL\obj\Debug\net5.0\BillingSystem.MODEL.dll
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.MODEL\obj\Debug\net5.0\ref\BillingSystem.MODEL.dll
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.MODEL\obj\Debug\net5.0\BillingSystem.MODEL.pdb
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.MODEL\obj\Debug\net5.0\BillingSystem.MODEL.csproj.AssemblyReference.cache

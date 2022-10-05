@@ -1,0 +1,89 @@
+﻿@model IEnumerable<BillingSystem.MODEL.EntryViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CUSTID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalAmount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GivenAmount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ChangeAmount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BILLNO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BILLDATE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ITEMID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RATE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BILLQTY)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BILLID)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CUSTID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalAmount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GivenAmount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ChangeAmount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BILLNO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BILLDATE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ITEMID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RATE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BILLQTY)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BILLID)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

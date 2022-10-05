@@ -1,0 +1,12 @@
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.DAL\bin\Debug\net5.0\BillingSystem.DAL.deps.json
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.DAL\bin\Debug\net5.0\BillingSystem.DAL.dll
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.DAL\bin\Debug\net5.0\ref\BillingSystem.DAL.dll
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.DAL\bin\Debug\net5.0\BillingSystem.DAL.pdb
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.DAL\obj\Debug\net5.0\BillingSystem.DAL.csproj.AssemblyReference.cache
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.DAL\obj\Debug\net5.0\BillingSystem.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.DAL\obj\Debug\net5.0\BillingSystem.DAL.AssemblyInfoInputs.cache
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.DAL\obj\Debug\net5.0\BillingSystem.DAL.AssemblyInfo.cs
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.DAL\obj\Debug\net5.0\BillingSystem.DAL.csproj.CoreCompileInputs.cache
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.DAL\obj\Debug\net5.0\BillingSystem.DAL.dll
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.DAL\obj\Debug\net5.0\ref\BillingSystem.DAL.dll
+D:\.Net Core\BillingSystem\BillingSystem\BillingSystem.DAL\obj\Debug\net5.0\BillingSystem.DAL.pdb
